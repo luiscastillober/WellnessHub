@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WellnessHub</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/articulo3.css">
+    <link rel="stylesheet" href="./styles/articulos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="navbar-left">
+        <a href="landinpeage.html">WellnessHub</a>
+    </div>
+
+    <a class="nav1" href="articulos.html">BUENOS HÁBITOS</a>
+    <a class="nav2" href="calculadora.html">CALCULADORA IMC</a>
+</nav>
+
+<!-- TÍTULO -->
+<div class="title-container">
+    <h1>Buenos Habitos <span>🥦</span></h1>
+</div>
+
+<!-- CONTENT -->
+<div class="accordion">
+    <div class="accordion-item">
+        <button class="accordion-button">Dieta equilibrada</button>
+        <div class="accordion-content">
+            <div class="content-flex">
+                <div class="text-content">
+                    <p>- Consume una variedad de alimentos de todos los grupos alimentarios, como verduras, frutas, proteínas magras, cereales integrales y grasas saludables.</p>
+                    <p>- Limita el consumo de alimentos procesados y aquellos altos en grasas saturadas, azúcares añadidos y sodio.</p>
+                    <p>- Controla las porciones de comida para evitar comer en exceso.</p>
+                </div>
+                <img src="imagenes/dieta.jpg" alt="Dieta equilibrada" class="circle-img">
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <button class="accordion-button">Hidratación</button>
+        <div class="accordion-content">
+            <div class="content-flex">
+                <div class="text-content">
+                    <p>Bebe suficiente agua al día. El agua es esencial para muchas funciones fisiológicas y ayuda a eliminar toxinas y desechos.</p>
+                </div>
+                <img src="imagenes/agua.jpg" alt="Hidratación" class="circle-img">
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <button class="accordion-button">Ejercicio regular</button>
+        <div class="accordion-content">
+            <div class="content-flex">
+                <div class="text-content">
+                    <p>Realiza actividad física de manera habitual como caminar. El ejercicio beneficia tanto al cuerpo como a la mente.</p>
+                </div>
+                <img src="imagenes/ejercicio.jpg" alt="Ejercicio regular" class="circle-img">
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <button class="accordion-button">Gestión del Estrés</button>
+        <div class="accordion-content">
+            <div class="content-flex">
+                <div class="text-content">
+                    <p>Practica técnicas de relajación como la meditación, el yoga o ejercicios de respiración para mantener el estrés bajo control.</p>
+                </div>
+                <img src="imagenes/meditacion.jpg" alt="Ejercicio regular" class="circle-img">
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <button class="accordion-button">Relaciones sociales saludables</button>
+        <div class="accordion-content">
+            <div class="content-flex">
+                <div class="text-content">
+                    <p>Mantén relaciones positivas y significativas con amigos y familiares para mejorar tu bienestar emocional y mental.</p>
+                </div>
+                <img src="imagenes/relacion.jpg" alt="Ejercicio regular" class="circle-img">
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <button class="accordion-button">Sueño de Calidad</button>
+        <div class="accordion-content">
+            <div class="content-flex">
+                <div class="text-content">
+                    <p>Asegúrate de dormir suficientes horas y mantener una rutina de sueño regular para mejorar tu salud general.</p>
+                </div>
+                <img src="imagenes/sueño.jpg" alt="Ejercicio regular" class="circle-img">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-links">
+            <a href="#">Política de Privacidad</a>
+            <a href="#">Aspectos Legales</a>
+        </div>
+        <div class="social-icons">
+            <span>Síguenos en nuestras redes sociales</span>
+            <a href="https://www.facebook.com/sergio.vaellahuaman/" class="facebook-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/pablocg_19/" class="instagram-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <a >© 2024 WELLNESSHUB. Todos los derechos reservados.</a>
+    </div>
+</footer>
+</body>
+
+<script>
+    document.querySelectorAll('.accordion-button').forEach(button => {
+        button.addEventListener('click', () => {
+            const content = button.nextElementSibling;
+            button.classList.toggle('active');
+            if (button.classList.contains('active')) {
+                content.style.display = 'block';
+            } else {
+                content.style.display = 'none';
+            }
+        });
+    });
+</script>
+
+</html>

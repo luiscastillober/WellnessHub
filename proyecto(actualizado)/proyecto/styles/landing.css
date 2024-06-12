@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Poppins:wght@300;400;600;700&family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegúrate de que el body ocupe al menos toda la altura del viewport */
+    margin: 0;
+}
+
+
+/* Estilos para el navbar */
+.navbar {
+    background-color: #caefb9; /* Fondo negro */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px; /* Espaciado interior del navbar */
+    color: #000000; /* Texto blanco */
+    height: 60px;
+}
+
+/* Estilos para el enlace "WellnessHub" a la izquierda */
+.navbar-left a {
+    text-decoration: none;
+    color: #000000; /* Texto blanco */
+    font-weight: bold;
+    font-size: 20px; /* Tamaño de fuente */
+
+}
+
+.nav1{
+    text-decoration: none;
+    color: #000000; /* Texto blanco */
+    font-weight: bold;
+    font-size: 20px; /* Tamaño de fuente */
+    margin-left: 700px;
+}
+
+.nav2{
+    text-decoration: none;
+    color: #000000; /* Texto blanco */
+    font-weight: bold;
+    font-size: 20px; /* Tamaño de fuente */
+    margin-right: 20px;
+
+}
+
+.btn-inicio{
+
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #ffffff; /* Color de fondo  */
+    color: #0056a3;              /* Color de texto */
+    border-radius: 5px;        /* Bordes redondeados */
+    font-weight: bold;         /* Texto en negrita */
+    text-decoration: none;    /* Remueve el subrayado del enlace */
+    transition: background-color 0.3s ease; /* Efecto de transición al pasar el mouse */
+
+}
+
+
+
+/* Estilos para el contenedor de la imagen de fondo */
+.background-image {
+    position: relative;
+    width: 100%;
+    height: 500px; /* Ajusta la altura según tus necesidades */
+}
+
+
+
+/* Estilos para la imagen de fondo */
+.background-image img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover; /* Ajusta la imagen al tamaño del contenedor */
+    display: block;/*1*/
+}
+
+/* Estilos para el texto superpuesto */
+
+.text-overlay {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #000000; /* Texto en color blanco */
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+
+
+
+.register-btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #007BFF; /* Color de fondo azul */
+    color: white;              /* Color de texto blanco */
+    border-radius: 5px;        /* Bordes redondeados */
+    font-weight: bold;         /* Texto en negrita */
+    text-decoration: none;    /* Remueve el subrayado del enlace */
+    transition: background-color 0.3s ease; /* Efecto de transición al pasar el mouse */
+    margin-top: 25px;
+    left: 50%;
+
+}
+
+.register-btn:hover {
+    background-color: #0056b3; /* Color de fondo azul oscuro al pasar el mouse */
+}
+
+
+.texto {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center;     /* Centrar verticalmente */
+    height: 25vh;           /* Altura del viewport completo */
+    width: 100%;             /* Ancho completo */
+    left: 50%;
+
+}
+
+
+.Bienvenido h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+    height: 400px;
+}
+.column {
+    width: 30%;
+}
+.circulo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.column h2 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+.column p {
+    font-size: 1em;
+    margin-top: 10px;
+}
+.Bienvenido h1 {
+    text-align: center;
+    font-size: 2em;
+}
+.Bienvenido p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.footer {
+    background-color: #1e1c1c;
+    color: white;
+    text-align: center;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 50px;
+}
+.footer-content h2 {
+    margin: 0;
+}
+.footer-content .social-icons {
+    display: flex;
+    gap: 10px;
+}
+.footer-content .social-icons a {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+.footer-bottom {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    font-size: 0.9em;
+}
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: left;
+    padding-left: 50px;
+}
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.facebook-icon i {
+    background-color: #00000000;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.instagram-icon i {
+    background: #00000000 ;
+    border-radius: 50%;
+    margin-left: 5px;
+}
