@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Poppins:wght@300;400;600;700&family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegúrate de que el body ocupe al menos toda la altura del viewport */
+    margin: 0;
+}
+
+
+/* Estilos para el navbar */
+.navbar {
+    background-color: #caefb9; /* Fondo negro */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px; /* Espaciado interior del navbar */
+    color: #000000; /* Texto blanco */
+    height: 60px;
+}
+
+/* Estilos para el enlace "WellnessHub" a la izquierda */
+.navbar-left a {
+    text-decoration: none;
+    color: #000000; /* Texto blanco */
+    font-weight: bold;
+    font-size: 20px; /* Tamaño de fuente */
+
+}
+
+.nav1{
+    text-decoration: none;
+    color: #000000; /* Texto blanco */
+    font-weight: bold;
+    font-size: 20px; /* Tamaño de fuente */
+    margin-left: 700px;
+}
+
+.nav2{
+    text-decoration: none;
+    color: #000000; /* Texto blanco */
+    font-weight: bold;
+    font-size: 20px; /* Tamaño de fuente */
+    margin-right: 20px;
+
+}
+
+/* Title styles */
+.title-container {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.title-container h1 {
+    font-size: 2rem;
+}
+
+.title-container span {
+    font-size: 1.5rem;
+}
+
+/* Accordion styles */
+.accordion {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.accordion-item {
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+}
+
+.accordion-button {
+    width: 100%;
+    padding: 1rem;
+    text-align: left;
+    background-color: #f9f9f9;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+
+.accordion-button:hover {
+    background-color: #ddd;
+}
+
+.accordion-content {
+    display: none;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.content-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-content {
+    flex: 1;
+    padding-right: 1rem;
+}
+
+.circle-img {
+    width: 220px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+
+.footer {
+    background-color: #1e1c1c;
+    color: white;
+    text-align: center;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 50px;
+}
+.footer-content h2 {
+    margin: 0;
+}
+.footer-content .social-icons {
+    display: flex;
+    gap: 10px;
+}
+.footer-content .social-icons a {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+.footer-bottom {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    font-size: 0.9em;
+}
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: left;
+    padding-left: 50px;
+}
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.facebook-icon i {
+    background-color: #00000000;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.instagram-icon i {
+    background: #00000000 ;
+    border-radius: 50%;
+    margin-left: 5px;
+}

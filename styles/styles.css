@@ -1,0 +1,247 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+/* Estilos para el navbar */
+.navbar {
+    background-color: #caefb9; /* Fondo negro */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px; /* Espaciado interior del navbar */
+    color: #000000; /* Texto blanco */
+    height: 60px;
+}
+
+/* Estilos para el enlace "WellnessHub" a la izquierda */
+.navbar-left a {
+    text-decoration: none;
+    color: #000000; /* Texto blanco */
+    font-weight: bold;
+    font-size: 20px; /* Tamaño de fuente */
+
+}
+
+.nav1{
+    text-decoration: none;
+    color: #000000; /* Texto blanco */
+    font-weight: bold;
+    font-size: 20px; /* Tamaño de fuente */
+    margin-left: 700px;
+}
+
+.nav2{
+    text-decoration: none;
+    color: #000000; /* Texto blanco */
+    font-weight: bold;
+    font-size: 20px; /* Tamaño de fuente */
+    margin-right: 20px;
+
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    flex: 1;
+}
+
+.top-section {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 20px;
+}
+
+.text, .form {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.text {
+    text-align: left;
+}
+
+.IMC {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.result-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.result-container .btn,
+.result-container .result {
+    flex: 1;
+
+}
+
+.result-container .result {
+    display: flex;
+    align-items: center;
+}
+
+.form-group {
+    margin: 15px 0;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.form-group textarea{
+    width: 100%;
+    padding: 70px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn {
+    background-color: #99D27E;
+    color: white;
+    padding: 20px;
+    border: 1px solid #8bc34a;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50%; /* Ancho relativo */
+    max-width: 300px; /* Limitar el ancho máximo */
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.result input{
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 50%; /* Ancho relativo */
+    max-width: 300px; /* Limitar el ancho máximo */
+    text-align: center;
+}
+.result label{
+    margin-right: 10px;
+    font-weight: bold; /* Poner el texto en negrita */
+}
+
+.footer {
+    background-color: #1e1c1c;
+    color: white;
+    text-align: center;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 50px;
+}
+.footer-content h2 {
+    margin: 0;
+}
+.footer-content .social-icons {
+    display: flex;
+    gap: 10px;
+}
+.footer-content .social-icons a {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+.footer-bottom {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    font-size: 0.9em;
+}
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: left;
+    padding-left: 50px;
+}
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.facebook-icon i {
+    background-color: #00000000;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.instagram-icon i {
+    background: #00000000 ;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+/* styles/styles.css */
+
+/* Estilos generales para la calculadora y resultados */
+.recommendations-container {
+    margin-top: 20px;
+}
+
+.recommendation {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.recommendation img {
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+.recommendation-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.recommendation-content h3 {
+    margin: 0 0 10px 0;
+}
+
+.recommendation-content p {
+    margin: 5px 0;
+}

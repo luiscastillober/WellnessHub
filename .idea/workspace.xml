@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="66c14d8d-8adb-4ca0-b38b-332c82a9732c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/articulos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculadora.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/PENE.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/agua.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/bajopeso.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/dieta.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/ejercicio.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/meditacion.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/obesidad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/pesonormal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/relacion.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/sobrepeso.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/sueño.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/articulos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/calculadora.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/landin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/landinpeage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/articulo2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/articulo3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/articulos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/landing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/lanin2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2hlCA82inYE1Gt6An6Vn307w9CG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.articulos.html.executor": "Run",
+    "JavaScript Debug.calculadora.html.executor": "Run",
+    "JavaScript Debug.landinpeage.html.executor": "Run",
+    "Node.js.calculadora.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/FERNANDO CASTILLO/Documents/MedioAmbiente/proyecto(actualizado)",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-WS-241.14494.235" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66c14d8d-8adb-4ca0-b38b-332c82a9732c" name="Changes" comment="" />
+      <created>1718159131136</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718159131136</updated>
+      <workItem from="1718159132189" duration="7326000" />
+      <workItem from="1718194956736" duration="6564000" />
+      <workItem from="1718201646288" duration="125000" />
+      <workItem from="1718202715408" duration="1080000" />
+      <workItem from="1718469979389" duration="3000" />
+      <workItem from="1718753200171" duration="3693000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
